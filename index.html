@@ -1,9 +1,21 @@
 <!DOCTYPE HTML>
 <html>
 <header>
-<title> WEE </title>
+<title> Guess the number </title>
 </header>
 <body>
-<p> dobry den </p>
+
+    <h1> guess the number 1-10</h1>
+    <input type="number" id="guess" placeholder="enter number">
+    <button onclick="checkguess()">SUBMIT</button>
+
+
+
 </body>
 </html>
+<script>
+    let randomNumber = Math.floor(Math.random() * 10) + 1;
+
+function guess = document.getElementById("guess").value;
+
+</script>
