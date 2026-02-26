@@ -17,8 +17,8 @@
     let randomNumber = Math.floor(Math.random() * 10) + 1;
 
     function guess() {
-    var guess = document.getElementById("guess").value;
-    var result = document.getElementById("result")
+    let guess = document.getElementById("guess").value;
+    let result = document.getElementById("result")
     if (userGuess == randomNumber) {
     result.textContent = "🎉 Correct! You guessed it!";
   } else {
